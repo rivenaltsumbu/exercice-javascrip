@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice JavaScript - Liste de tâches</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Ma liste de tâches</h1>
+    <p class="intro">Exercice JavaScript : ajoute, termine et supprime des tâches.</p>
+
+    <form id="task-form">
+      <input id="task-input" type="text" placeholder="Écris une tâche..." autocomplete="off">
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <p id="message" aria-live="polite"></p>
+    <ul id="task-list"></ul>
+    <p id="task-count">0 tâche(s)</p>
+  </main>
+</body>
+</html>
